@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: 'Urbanist Variable', sans-serif;
+}
+
+.background-gradiant {
+	background: radial-gradient(
+		circle at top center,
+		hsla(254, 97%, 96%, 0.5) 0%,
+		hsla(254, 0%, 0%, 0) 50%,
+		hsla(254, 0%, 0%, 0) 100%
+	);
+}
